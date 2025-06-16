@@ -15,14 +15,13 @@
 //   });
 // });
 
-const express = require("express");
-const cors = require("cors");
-const tarefaRoutes = require("./routes/tarefaRoutes");
-const sequelize = require("./database/db")
-const app = express()
+// const express = require("express");
+// const cors = require("cors");
+// const tarefaRoutes = require("./routes/tarefaRoutes");
+// const sequelize = require("./database/db")
+// const app = express()
 
 //middleware//
-<<<<<<< HEAD
 
 app.use(cors())
 app.use(express.json())
@@ -42,7 +41,7 @@ sequelize.sync()
  .catch((error) => {
   console.error("Erro ao conectar o banco de dados", error)
  })
-=======
+
 
 app.use(cors)
 app.use(express.json())
@@ -61,4 +60,3 @@ sequelize.sync()
   console.error("Erro ao conectar o banco de dados", error)
  })
 
->>>>>>> 76ef1bae4a57e154af0cd5b14f116d7959941688
