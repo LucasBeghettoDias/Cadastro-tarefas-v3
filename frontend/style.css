@@ -1,11 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #eef2f7;
+    background-image: url(imagem1.jpg);
+    background-size: cover;
   }
   
   .container {
     max-width: 600px;
-    margin: 40px auto;
+    margin: 200px auto;
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -29,7 +31,7 @@ body {
   }
   
   button {
-    background-color: #2563eb;
+    background-color: #1894a5;
     color: white;
     border: none;
     cursor: pointer;
@@ -48,7 +50,7 @@ body {
   }
   
   th {
-    background-color: #2563eb;
+    background-color: #1894a5;
     color: white;
   }
   
