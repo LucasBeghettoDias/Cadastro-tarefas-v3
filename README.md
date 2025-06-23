@@ -1,71 +1,39 @@
-# 📋 Cadastro de Tarefas
+# Projeto Cadastro de Tarefas
 
-Projeto web desenvolvido para gerenciamento simples de tarefas, com backend em **Node.js** e banco de dados **MySQL**. Ideal para quem quer aprender a integrar front-end e back-end com persistência de dados.
+Aplicação web simples para cadastro de tarefas com backend em Node.js e persistência de dados em MySQL.
 
----
+## 🚀 Funcionalidades
 
-## ✨ Recursos principais
+- ✅ Cadastro de tarefas
+- ✅ Integração com banco de dados MySQL
+- ✅ Interface HTML responsiva
+- ✅ Controle de status das tarefas
 
-- Adição e visualização de tarefas
-- Armazenamento no banco de dados MySQL
-- Interface HTML com design responsivo
-- Marcação de tarefas como concluídas ou pendentes
+## 🛠️ Tecnologias utilizadas
 
----
+- Node.js
+- Express
+- Sequelize
+- MySQL
+- HTML + CSS
 
-## 🧰 Stack de Tecnologias
+## 📸 Captura de tela
 
-- **Node.js** – Ambiente de execução do JavaScript no backend  
-- **Express** – Framework para criação da API  
-- **Sequelize** – ORM para comunicação com o MySQL  
-- **MySQL** – Banco de dados relacional  
-- **HTML + CSS** – Estrutura e estilo da interface
+![tela](./screenshot.png)
 
----
+## 🧑‍💻 Como usar
 
-## 🖼️ Exemplo da Interface
-
-> *Adicione aqui uma imagem da tela principal do sistema*
-
+```bash
+git clone https://github.com/seuusuario/seurepositorio.git
+cd seurepositorio
+npm install
+node backend/server.js
 ```
-[imagem da tela do sistema]
-```
 
----
+## 📚 Aprendizados
 
-## 🚀 Como executar o projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/seurepositorio.git
-   ```
-
-2. Acesse a pasta do projeto:
-   ```bash
-   cd seurepositorio
-   ```
-
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
-
-4. Inicie o servidor:
-   ```bash
-   node backend/server.js
-   ```
-
-> Certifique-se de que o MySQL está rodando e que as credenciais estão corretas no arquivo de configuração.
-
----
-
-## 📘 Experiência adquirida
-
-Durante o desenvolvimento, foi realizada a migração do banco SQLite para MySQL, reforçando o uso do Sequelize como ORM para múltiplos bancos.
-
----
+Este projeto demonstrou como migrar um backend de SQLite para MySQL utilizando Sequelize.
 
 ## 📄 Licença
 
-Distribuído sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
-
+Este projeto está sob a licença MIT.
