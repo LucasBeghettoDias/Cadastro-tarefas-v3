@@ -70,21 +70,21 @@ Vá até o endereço: http://localhost:3000.
 
 Durante o desenvolvimento, foi realizado um processo completo de transição entre bancos de dados:
 
-Substituição do SQLite por MySQL.
+- Substituição do SQLite por MySQL.
 
-Adaptação de models, migrations e conexões com o Sequelize.
+- Adaptação de models, migrations e conexões com o Sequelize.
 
-Ganho de familiaridade com conceitos de ORM, migrations, seeders, e relacionamentos entre entidades.
+- Ganho de familiaridade com conceitos de ORM, migrations, seeders, e relacionamentos entre entidades.
 
 🔍 Conceitos Explorados:
 
-Implementação de arquitetura MVC simples.
+- Implementação de arquitetura MVC simples.
 
-Integração entre frontend e backend utilizando requisições HTTP RESTful.
+- Integração entre frontend e backend utilizando requisições HTTP RESTful.
 
-Uso do Sequelize para abstração de operações SQL.
+- Uso do Sequelize para abstração de operações SQL.
 
-Tratamento de rotas, middlewares e persistência de dados.
+- Tratamento de rotas, middlewares e persistência de dados.
 
-Validação de entradas e manipulação de erros no servidor.
+- Validação de entradas e manipulação de erros no servidor.
 
