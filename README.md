@@ -1,4 +1,4 @@
-🗂️ **Aplicativo Web de Gerenciamento de Tarefas**:
+# 🗂️ **Aplicativo Web de Gerenciamento de Tarefas**:
 
 Uma aplicação web intuitiva e responsiva para organização de tarefas diárias, desenvolvida com foco em usabilidade e performance. O sistema oferece funcionalidades essenciais para o controle de tarefas, com um backend robusto em Node.js, persistência de dados em MySQL via Sequelize ORM, e uma interface limpa construída com HTML e CSS puro.
 
