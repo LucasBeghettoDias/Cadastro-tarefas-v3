@@ -40,23 +40,33 @@ Frontend	HTML5, CSS3
 Siga os passos abaixo para executar o projeto em sua máquina:
 
 1️⃣ Clonar o Repositório:
+
 🖥️ Acesse o terminal.
+
 📥 Clone o repositório com o comando git clone.
+
 📂 Entre na pasta do projeto com cd.
 
 2️⃣ Instalar as Dependências:
+
 📦 Execute o comando npm install para instalar todos os pacotes necessários.
 
 3️⃣ Configurar o Banco de Dados:
+
 🐬 Crie um banco de dados no MySQL (ex: tarefas_db).
+
 🛠️ Atualize as configurações de acesso no arquivo backend/config/config.json (ou .env).
+
 🔃 Rode as migrations com o comando npx sequelize db:migrate.
 
 4️⃣ Iniciar o Servidor:
+
 ▶️ No terminal, execute o arquivo backend/server.js com Node.js.
 
 5️⃣ Acessar no Navegador:
+
 🌐 Abra seu navegador preferido.
+
 🔗 Vá até o endereço: http://localhost:3000.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
