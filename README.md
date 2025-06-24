@@ -2,6 +2,8 @@
 
 Uma aplicação web intuitiva e responsiva para organização de tarefas diárias, desenvolvida com foco em usabilidade e performance. O sistema oferece funcionalidades essenciais para o controle de tarefas, com um backend robusto em Node.js, persistência de dados em MySQL via Sequelize ORM, e uma interface limpa construída com HTML e CSS puro.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🔧 **Funcionalidades Principais**:
 
 ✅ Criação Rápida de Tarefas
@@ -22,6 +24,8 @@ Utiliza MySQL como mecanismo de persistência, garantindo integridade e confiabi
 📱 Design Responsivo
 A interface se adapta automaticamente a diferentes tamanhos de tela, oferecendo uma boa experiência tanto em desktop quanto em dispositivos móveis.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🧰 **Tecnologias Utilizadas**:
 
 Camada	Tecnologia
@@ -30,6 +34,8 @@ Banco de Dados	MySQL, Sequelize ORM
 Frontend	HTML5, CSS3
 
 🖼️ **Interface do Usuário**:
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![tela](./screenshot.png)
 
