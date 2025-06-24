@@ -28,10 +28,12 @@ A interface se adapta automaticamente a diferentes tamanhos de tela, oferecendo 
 
 🧰 **Tecnologias Utilizadas**:
 
-Camada	Tecnologia
-Backend	Node.js, Express.js
-Banco de Dados	MySQL, Sequelize ORM
-Frontend	HTML5, CSS3
+- Camada	Tecnologia
+- Backend	Node.js, Express.js
+- Banco de Dados	MySQL, Sequelize ORM
+- Frontend	HTML5, CSS3
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🖼️ **Interface do Usuário**:
 
