@@ -1,45 +1,54 @@
-Sistema de Cadastro de Tarefas
+🗂️ Aplicativo Web de Tarefas:
 
-Uma aplicação web simples para gerenciar tarefas, com backend em Node.js e banco de dados MySQL.
+Uma aplicação simples e funcional para organização de tarefas, com backend em Node.js e banco de dados MySQL.
 
-✨ Recursos:
+🔍 O que você pode fazer:
 
-📝 Adicionar novas tarefas
+🆕 Criar novas tarefas rapidamente
 
-💾 Integração com MySQL
+🗃️ Armazenar os dados no MySQL
 
-🖥️ Interface responsiva em HTML/CSS
+📱 Usar uma interface leve e adaptável a qualquer tela
 
-🔄 Atualização de status das tarefas
+✅ Marcar tarefas como concluídas ou pendentes
 
-⚙️ Tecnologias Utilizadas:
+🧰 Tecnologias por trás:
 
-Node.js
+🟩 Node.js
 
-Express
+🚂 Express
 
-Sequelize
+🔗 Sequelize
 
-MySQL
+🐬 MySQL
 
-HTML + CSS
+🎨 HTML e CSS puros
 
-🖼️ Prévia da Interface
+🖼️ Visual do sistema:
 
 ![tela](./screenshot.png)
 
-Como Executar
-bash
-Copiar
-Editar
+🚀 Como iniciar o projeto:
+
+- Clone o repositório do GitHub:
+Acesse o terminal e digite:
 git clone https://github.com/seuusuario/seurepositorio.git
+
+- Acesse a pasta do projeto:
 cd seurepositorio
+
+- Instale as dependências do Node.js com:
 npm install
+
+- Inicie o servidor backend:
 node backend/server.js
+
 📘 Conhecimentos Adquiridos:
 
 Durante o projeto, foi feita a transição do SQLite para o MySQL usando o Sequelize como ORM.
 
-## 📄 Licença
+📖 O que foi explorado:
 
-Este projeto está sob a licença MIT.
+Neste projeto, foi realizada a migração do banco SQLite para o MySQL utilizando o Sequelize, aprofundando o conhecimento em persistência de dados com ORM.
+
+
