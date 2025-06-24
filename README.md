@@ -29,62 +29,69 @@ Backend	Node.js, Express.js
 Banco de Dados	MySQL, Sequelize ORM
 Frontend	HTML5, CSS3
 
-🖼️ **# Interface do Usuário**:
+🖼️ **Interface do Usuário**:
 
 ![tela](./screenshot.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🚀 Como Executar o Projeto Localmente:
+🚀 **Como Executar o Projeto Localmente**:
 
-Siga as etapas abaixo para executar a aplicação em sua máquina:
+Siga os passos abaixo para executar o projeto em sua máquina:
 
-1. Clonar o Repositório:
-Acesse o terminal.
+1️⃣ Clonar o Repositório:
+🖥️ Acesse o terminal.
+📥 Clone o repositório com o comando git clone.
+📂 Entre na pasta do projeto com cd.
 
-Clone o repositório com o comando git clone.
+2️⃣ Instalar as Dependências:
+📦 Execute o comando npm install para instalar todos os pacotes necessários.
 
-Entre na pasta do projeto com cd.
+3️⃣ Configurar o Banco de Dados:
+🐬 Crie um banco de dados no MySQL (ex: tarefas_db).
+🛠️ Atualize as configurações de acesso no arquivo backend/config/config.json (ou .env).
+🔃 Rode as migrations com o comando npx sequelize db:migrate.
 
-2. Instalar as Dependências:
-Execute o comando npm install para instalar todos os pacotes necessários.
+4️⃣ Iniciar o Servidor:
+▶️ No terminal, execute o arquivo backend/server.js com Node.js.
 
-3. Configurar o Banco de Dados:
-Crie um banco de dados no MySQL (por exemplo: tarefas_db).
-
-Atualize as configurações de acesso no arquivo backend/config/config.json (ou no .env, se estiver usando).
-
-Rode as migrations com o comando npx sequelize db:migrate.
-
-4. Iniciar o Servidor:
-No terminal, execute o arquivo backend/server.js com Node.js.
-
-5. Acessar no Navegador:
-Abra seu navegador preferido.
-
-Vá até o endereço: http://localhost:3000.
+5️⃣ Acessar no Navegador:
+🌐 Abra seu navegador preferido.
+🔗 Vá até o endereço: http://localhost:3000.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📘 Aprendizados Durante o Projeto:
+📘 **Aprendizados Durante o Projeto**:
 
 Durante o desenvolvimento, foi realizado um processo completo de transição entre bancos de dados:
 
-- Substituição do SQLite por MySQL.
+🔄 Substituição do SQLite por MySQL para maior escalabilidade e compatibilidade com produção.
 
-- Adaptação de models, migrations e conexões com o Sequelize.
+🧩 Adaptação de models, migrations e conexões utilizando o Sequelize ORM.
 
-- Ganho de familiaridade com conceitos de ORM, migrations, seeders, e relacionamentos entre entidades.
+🧠 Aprofundamento em conceitos fundamentais como:
 
-🔍 Conceitos Explorados:
+- ORM (Mapeamento Objeto-Relacional)
 
-- Implementação de arquitetura MVC simples.
+- Migrations
 
-- Integração entre frontend e backend utilizando requisições HTTP RESTful.
+- Seeders
 
-- Uso do Sequelize para abstração de operações SQL.
+- Relacionamentos entre entidades (associações)
 
-- Tratamento de rotas, middlewares e persistência de dados.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- Validação de entradas e manipulação de erros no servidor.
+🔍 **Conceitos Explorados**:
+
+🏗️ Arquitetura MVC simples e organizada.
+
+🔁 Integração entre frontend e backend via requisições HTTP RESTful.
+
+🔗 Uso do Sequelize para abstração das operações com SQL.
+
+🚦 Criação e tratamento de rotas e middlewares no Express.
+
+💾 Persistência de dados com um banco relacional estruturado.
+
+🛡️ Validação de entradas e tratamento de erros no servidor de forma controlada.
 
